@@ -1,0 +1,28 @@
+ 200 OK
+INFO:     127.0.0.1:63796 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63796 - "GET /api/auto-trading/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63797 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+[AUTO-TRADING] ⏳ KRW-FCT2 지정가 대기 중: ₩24 (현재가: ₩25)
+INFO:     127.0.0.1:63797 - "GET /api/auto-trading/mini-charts HTTP/1.1" 200 OK
+[AUTO-TRADING] ⏳ KRW-CYBER 지정가 대기 중: ₩976 (현재가: ₩1,013)
+INFO:     127.0.0.1:63796 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63825 - "GET /api/auto-trading/status HTTP/1.1" 200 OK
+[AUTO-TRADING] ⏳ KRW-POKT 지정가 대기 중: ₩24 (현재가: ₩24)
+INFO:     127.0.0.1:63797 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63796 - "GET /api/auto-trading/status HTTP/1.1" 200 OK
+🔍 KRW-AUCTION 분석 중...
+[AUTO-TRADING] KRW-AUCTION trade_prices 갱신: 매수가 ₩7,838.0
+[AUTO-TRADING] KRW-AUCTION 지정가 매수 주문: ₩7,838 x 0.95775543
+[UPBIT] 지정가 매수 실패 - 상태코드: 400, 응답: {'error': {'name': 
+'invalid_price_bid', 'message': '주문가격 단위를 잘못 입력하셨습니 
+다. 확인 후 시도해주세요.'}}
+[AUTO-TRADING] ❌ 지정가 주문 실패 KRW-AUCTION: 주문가격 단위를 잘못
+ 입력하셨습니다. 확인 후 시도해주세요.
+INFO:     127.0.0.1:63825 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63796 - "GET /api/auto-trading/status HTTP/1.1" 200 OK
+[AUTO-TRADING] ⏳ KRW-F 지정가 대기 중: ₩10 (현재가: ₩10)
+INFO:     127.0.0.1:63797 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63796 - "GET /api/trading/realtime-price?market=KRW-BTC HTTP/1.1" 200 OK
+[AUTO-TRADING] 10:56:00 - 수익률: -41.35%
+[STATE] 자동매매 상태 저장 완료: auto_trading_state.json
+INFO:     127.0.0.1:63796 - "GET /api/auto-trading/status HTTP/1.1" 200 OK
